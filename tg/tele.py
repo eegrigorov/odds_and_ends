@@ -1,7 +1,7 @@
 from pyowm import OWM
 import telebot
 
-bot = telebot.TeleBot("7845372713:AAG43QwfLNzsVj9rMMpD5XpJDks1gSuyaqI")
+bot = telebot.TeleBot("secret")
 owm = OWM('f24f64157f295b0305abe3a8b771f008')
 mgr = owm.weather_manager()
 
